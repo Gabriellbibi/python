@@ -1,0 +1,32 @@
+mport pyautogui
+pyautogui.sleep(2)
+pyautogui.press("win")
+pyautogui.write("chrome")
+pyautogui.sleep(3)
+pyautogui.press("Enter")
+pyautogui.sleep(2)
+pyautogui.click(x=108, y=106)
+pyautogui.sleep(4)
+pyautogui.hotkey("ctrl","a")
+pyautogui.sleep(4)
+pyautogui.hotkey("ctrl","c")
+pyautogui.sleep(4)
+pyautogui.press("win")
+pyautogui.sleep(8)
+pyautogui.write("world")
+pyautogui.sleep(4)
+pyautogui.press("enter")
+pyautogui.sleep(4)
+pyautogui.click(x=112, y=290)
+pyautogui.sleep(4)
+pyautogui.hotkey("ctrl","v")
+
+import pyautogui
+pyautogui.sleep(4)
+print(pyautogui.position())
+
+
+
+
+
+
