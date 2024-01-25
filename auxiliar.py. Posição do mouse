@@ -1,0 +1,4 @@
+
+import pyautogui
+pyautogui.sleep(6)
+print (pyautogui.position()) 
