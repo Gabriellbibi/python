@@ -1,4 +1,4 @@
-mport pyautogui
+import pyautogui
 pyautogui.sleep(2)
 pyautogui.press("win")
 pyautogui.write("chrome")
