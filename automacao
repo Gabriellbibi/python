@@ -21,10 +21,6 @@ pyautogui.click(x=112, y=290)
 pyautogui.sleep(4)
 pyautogui.hotkey("ctrl","v")
 
-import pyautogui
-pyautogui.sleep(4)
-print(pyautogui.position())
-
 
 
 
