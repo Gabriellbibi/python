@@ -1,0 +1,34 @@
+import customtkinter as ctk 
+import pyautogui
+janela=ctk.CTk()
+
+def script():
+    pyautogui.press("Win")
+    pyautogui.sleep(3)
+    pyautogui.write("chrome")
+    pyautogui.press("enter")
+    pyautogui.sleep(3)
+    pyautogui.write("https://g1.globo.com/")
+    pyautogui.sleep(3)
+    pyautogui.press("enter")
+    pyautogui.sleep(3)
+    pyautogui.hotkey("ctrl","a")
+    pyautogui.sleep(3)
+    pyautogui.hotkey("ctrl","c")
+    pyautogui.sleep(3)
+    pyautogui.press("Win")
+    pyautogui.sleep(3)
+    pyautogui.write("word")
+    pyautogui.sleep(3)
+    pyautogui.press("enter")
+    pyautogui.sleep(3)
+    pyautogui.press("enter")
+    pyautogui.hotkey("ctrl","v")
+
+botao=ctk.CTkButton(master=janela,text="automaçao - site g1", command=script)
+botao.place(x=40,y=40)
+
+
+janela.mainloop()
+
+pip install custontkinter
