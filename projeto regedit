@@ -1,0 +1,27 @@
+import pyautogui
+
+pyautogui.sleep(2)
+pyautogui.press("win")
+pyautogui.sleep(3)
+pyautogui.write("Editor do Registro")
+pyautogui.sleep(6)
+pyautogui.press("enter")
+pyautogui.sleep(3)
+pyautogui.press("tab")
+pyautogui.sleep(3)
+pyautogui.press("tab")
+pyautogui.sleep(3)
+pyautogui.write("Computador\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control")
+pyautogui.sleep(6)
+pyautogui.press("enter")
+pyautogui.sleep(4)
+pyautogui.doubleClick(x=325, y=268)
+pyautogui.sleep(3)
+pyautogui.press("enter")
+pyautogui.sleep(3)
+pyautogui.hotkey("alt","f4")
+
+import pyautogui
+
+print(pyautogui.position())
+pyautogui.sleep(6)
